@@ -290,8 +290,6 @@ list1.extend(list2)
 print(list1)  # Output: ['a', 'b', 'c', 1, 2, 3]
 
 
-
-
 '''# Python - List Methods:
 -----------------------------------
 List Methods:
