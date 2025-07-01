@@ -140,3 +140,10 @@ print(txt)
 # translate()	Returns a translated string
 # upper()	Converts a string into upper case
 # zfill()	Fills the string with a specified number of 0 values at the beginning
+
+str1 = "this is a string .\nwe are creating with python"
+str2 = 'this is also a string'
+str3 = """this is a string"""
+print(str1)
+print(str2)
+print(str3)
