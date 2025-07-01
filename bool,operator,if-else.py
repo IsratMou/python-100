@@ -83,3 +83,111 @@ print(isinstance(x, int))
 # not	Logical NOT
 # and	AND
 # or	OR
+
+''' conditional statements:
+# ------------------------------------------
+if (condition):
+    statement 1
+elif (condition):
+    statement 2
+else:
+    statement 3 '''
+
+age = 21
+if age < 18:
+    print("You are a minor.")
+    print("You are not allowed to vote.")
+else:
+    print("You are an adult.")
+    print("You are allowed to vote.")
+
+
+light = "green"
+
+if light == "red":
+    print("Stop")
+elif light == "yellow":
+    print("Get ready")
+else:
+    print("Go")
+
+
+num = 5
+
+if num > 2:
+    print("Greater than 2")
+elif (num > 3):
+    print("Greater than 3")
+else:
+    print("Less than or equal to 2")
+
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 80 and marks < 90:
+    print("Grade B")
+elif marks >= 70 and marks < 80:
+    print("Grade C")
+elif marks >= 60 and marks < 70:
+    print("Grade D")
+elif marks >= 50 and marks < 60:
+    print("Grade E")
+else:
+    print("Grade F")
+
+
+"""nested if statements:
+# ------------------------------------------
+# if (condition):
+#     if (condition):    
+#         statement 1    
+#     else:
+#         statement 2
+# else:
+#     statement 3  """
+
+age = 34
+if age >= 18:
+    print("You are an adult.")
+    if age >= 21:
+        print("You can drink alcohol.")
+    else:
+        print("You cannot drink alcohol.")
+else:
+    print("You are a minor.")
+    if age >= 16:
+        print("You can drive a car.")
+    else:
+        print("You cannot drive a car.")
+
+
+# practice of if-else statements
+# number = int(input("Enter a number: "))
+
+# if number//2==0:
+#     print("The number is even.")
+# else:
+#     print("The number is odd.")
+
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+if num1 >= num2 and num1 >= num3:
+    print(f"{num1} is the largest number.")
+elif num2 >= num1 and num2 >= num3:
+    print(f"{num2} is the largest number.")
+else:
+    print(f"{num3} is the largest number.")
+
+# divided by 7 or not
+
+num = 24
+
+if (num % 7 == 0):
+    print(f"{num} is divisible by 7.")
+else:
+    print(f"{num} is not divisible by 7.")
