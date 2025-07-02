@@ -307,3 +307,24 @@ pop()	Removes the element at the specified position
 remove()	Removes the item with the specified value
 reverse()	Reverses the order of the list
 sort()	Sorts the list '''
+
+# problem practice
+# ask user to input their fav 3 movies and store them in a list
+movies = []
+for i in range(3):
+    movie = input("Enter your favorite movie: ")
+    movies.append(movie)
+print(movies)
+
+# ask user to input 5 numbers and store them in a list
+num = []
+for x in range(5):
+    number = int(input("Enter a number: "))
+    num.append(number)
+
+# check if a list contains palindrome elements use copy method
+palindrome_list = []
+for item in num:
+    if str(item) == str(item)[::-1]:  # Check if the number is a palindrome
+        palindrome_list.append(item)
+print(palindrome_list)
