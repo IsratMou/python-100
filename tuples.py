@@ -57,3 +57,11 @@ Once a tuple is created, you cannot change its values. Tuples are unchangeable, 
 
 But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.'''
 
+# tuple methods
+tup = (1, 2, 3, 4, 5, 2, 2, 4)
+# Output: 3 (counts how many times 2 appears in the tuple)
+print(tup.count(2))
+print(tup.index(2))  # Output: 1
+# Output: 1 (returns the index of the first occurrence of 2 in the tuple)
+
+# tuple e amra list & string er moto slicing korte pari
